@@ -9,7 +9,7 @@ export class AppComponent {
   loadedScreen = 'recipe';
   title = 'first-app';
 
-  onNavigationSelected(screen: string) {
+  onNavigationSelected(screen: string): void {
     this.loadedScreen = screen;
   }
 }
